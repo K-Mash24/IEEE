@@ -25,4 +25,4 @@
 4. Resource Library: Access to publications, tutorials, and technical standards provided by IEEE.
 
 ## Conclusion
-The development of this website aims to enhance the visibility and effectiveness of the IEEE Mutare University Student Branch by providing valuable resources and fostering a strong community among its members. We are committed to supporting the mission of IEEE through this digital platform.
+The development of this website aims to enhance the visibility and effectiveness of the IEEE Murang'a University Student Branch by providing valuable resources and fostering a strong community among its members. We are committed to supporting the mission of IEEE through this digital platform.
