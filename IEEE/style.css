@@ -1,0 +1,504 @@
+*{    /*add a back to top icon*/
+    margin: 0;
+    padding: 0;
+    }
+
+.main{ /* Main background styling */
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-color: white;
+    background-attachment: fixed;
+    z-index: -100;
+}
+
+.header{ /* Top grey Header styling */
+    margin-top: 0px;
+    position: relative;
+}
+
+.header-wedge{
+    width: 100%;
+    height: 60px;
+    background-color: #333333;
+    position: relative;
+    z-index: 100;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    z-index: 100;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.navbar{ /*Top secondary header*/
+    margin-top: 50px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 100;
+}
+
+.logo{
+    margin-left: 20px;
+    position: absolute;
+    z-index: 0;
+    margin-top: -10px;
+}
+
+.menu{
+    max-width: 100%;
+    height: 0px;
+    margin-top: 0px;
+    margin-left: 250px;
+    position: absolute;
+}
+
+.menu ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+}
+
+.menu ul li{
+    list-style: none;
+    margin-left: 60px;
+    font-size: 25px
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 0.1s ease-in-out;
+}
+
+.search{
+   width: 500px;
+   float: left;
+   margin-left: 720px;
+   margin-top: -35px; /* 50% of the height of the parent element */
+   position: absolute;
+}
+
+.search-bar{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 50%;
+    max-width: 100%;
+    height: 40px;
+    background: white;
+    color: black; /* Set the text color */
+    font-size: 20px;
+    text-align: center; 
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;
+}
+
+.btn{ /* Search button*/
+    width: 100px;
+    height: 36px;
+    top: 2px;
+    margin-left: 0px;
+    background: hsl(240, 89%, 48%);
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    padding: 10px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+}
+
+.btn:hover{
+    border: 2px solid black; /* Change border color and width */
+}
+
+.button ul{ /*IEEE social accounts button*/
+    list-style: none;
+    margin-top: 90px;
+    margin-left: 30px;
+    position: absolute;
+
+}
+
+.button ul li {
+    margin: 0; /* Remove any existing margin */
+    padding: 0; /* Remove any existing padding */
+    display: inline-block; /* Ensure the list items are displayed inline */
+}
+
+.button ul li img {
+    margin-right: 20px; /* Adjust the spacing between images */
+}
+
+.bln{ /*IEEE create account button*/
+    width: 120px;
+    height: 50px;
+    background: hsl(240, 89%, 48%);
+    margin-top: 83px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 310px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    align-items: left;
+}
+
+.bln:hover{
+    text-decoration: underline;
+}
+
+.square{
+    border: 0px black solid;
+    width: 95%;
+    height: auto;
+    position: relative; /* Ensure z-index works */
+    z-index: -100;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+/* .text h1 { /*IEEE welcome message*
+    top: 350px;
+    padding: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 40px;
+    width: 80%;
+    position: relative;
+    z-index: 500;
+}
+
+.content p { IEEE welcome message*
+    top: 300px;
+    padding-left: 50px;
+    margin-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    width: 80%;
+    position: relative;
+    z-index: 500;
+} */
+
+.line {
+    width:100%;
+    height: 80px;
+    background-color:blue;
+    left: auto;
+    position: relative;
+    top: auto;
+    z-index: 10;
+    clip-path: polygon(0 50px, 50px 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.body{
+    margin: 100px auto;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: absolute; /* Ensure z-index works */
+    z-index: 0; /* Ensure the footer is below the wedge */
+    padding-bottom: 50px;
+}
+
+.body h1{
+    margin-top: 50px;
+    font-size: 50px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.tabs{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    font-size: 40px;
+    color:white; 
+    position: relative; 
+    width: 80%;  
+}
+
+.card1{
+    width: 30%;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 1px;
+    position: absolute;
+    z-index: 1;
+    background-color: blue;
+
+}
+
+.card1 p{ /*We have the dynamcs of the buttons of the description*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none; /* Remove the underline */
+ }
+
+ .card2{
+    width: 30%;
+    height: 500px;
+    margin-left: 450px;
+    margin-top: 0px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 1px;
+    position: relative;
+    z-index: 1;
+    background-color: blue;
+}
+
+.card2 p{ /*We have the dynamcs of the buttons of the description*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none; /* Remove the underline */
+ }
+
+ .card3{
+    width: 30%;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: -500px;
+    padding: 40px;
+    border: 1px solid black;
+    border-radius: 1px;
+    z-index: 2;
+    background-color: blue;
+}
+
+.card3 p{ /*We have the dynamcs of the buttons of the description*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none; /* Remove the underline */
+ }
+
+.card1.card2.card3.a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.frame{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: transparent;
+    background-position: center;
+    background-size: cover; /* Ensures the image covers the entire area */
+    border: 3px solid black;
+    position: relative; 
+}
+
+.title p{
+    position: relative;
+    padding-bottom: 0px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.frame h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    margin-left: 600px;
+    position: absolute;
+}
+
+.frame p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    margin-top: 55px;
+    margin-left: 600px;
+    position: relative;
+}
+
+.icon{ /* Button for the respective chair personal social profiles*/
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    background-size: cover; /* Ensures the image covers the entire area */
+    border: transparent;
+    position: absolute;
+    top: -50px;
+}
+
+.icon:hover{
+    cursor: pointer;
+}
+
+.bln10{
+    width: 200px;
+    height: 50px;
+    background: hsl(240, 89%, 48%);
+    margin-top: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-left: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    position: absolute;
+    align-items: left;
+}
+
+.bln10:hover{
+    text-decoration: underline;
+}
+
+.custom-line {
+    border: none; /* Remove the default border */
+    height: 3px; /* Set the height of the line */
+    background-color: #000000; /* Set the background color of the line */
+    margin: 0px auto; /* Add some margin above and below the line */
+    margin-top: 150px;
+    width: 75%;
+}
+
+.location{
+    width: 80%;
+    margin-left: 80px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: blue;
+    position: relative;
+    z-index: 10;
+}
+
+.my-line{
+    width: 100%;
+    border: 2px solid #002855;
+    align-items: center;
+    position: relative;
+    top: -15px;
+    left: 250px;
+    margin:0 auto;
+}
+
+.quick-links{
+    width: 100%;
+    height: 500px;
+    padding-top: 0px;
+    top: 200px;
+    background-size: 100%;
+    position: relative; /* Change to fixed to keep it at the bottom */
+    z-index: 5; /* Ensure the footer is below the wedge */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-image: url(https://media.istockphoto.com/id/2010503711/vector/dark-blue-futuristic-digital-technology-background.jpg?s=612x612&w=0&k=20&c=l5MIl8J-26ImzHSQ6f-AEt-69il1t622HPYWZkspu7Y=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.links{
+    color: white;
+    left: 550px; /* Adjust the position as needed */
+    position: relative;
+    text-align: left;
+    top: 100px; /* Adjust the position as needed */
+    color:white;  
+    font-size: 30px;
+}
+
+.footer{ /* Top grey footer styling */
+    margin-top: 200px;
+    position: absolute;
+    width: 100%;
+}
+
+.footer-wedge{
+    margin-top: 0px;
+    background-color: #333333;
+    position: relative;
+    padding: 30px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 90%;
+}
+
+.footer p {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+    width: 90%;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Initially hidden */
+    z-index: 100; /* Ensure it is above other elements */
+}
+
+.back-to-top img {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Adjust the size as needed */
+    cursor: pointer;
+}
+
+.back-to-top:hover img {
+    opacity: 0.8; /* Add a hover effect */
+}
