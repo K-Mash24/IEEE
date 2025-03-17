@@ -209,14 +209,14 @@
 } */
 
 .line {
-    width:100%;
-    height: 80px;
+    width: 95%;
+    height: 100px;
     background-color:blue;
-    left: auto;
+    margin-left: 50px;
     position: relative;
     top: auto;
     z-index: 10;
-    clip-path: polygon(0 50px, 50px 0, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(50px 0, 100% 0, 100% 100%, 0 100%, 0 50px);
 }
 
 .body{
@@ -247,11 +247,11 @@
     font-size: 40px;
     color:white; 
     position: relative; 
-    width: 80%;  
+    width: 100%;  
 }
 
 .card1{
-    width: 30%;
+    width: 25%;
     height: 500px;
     margin-left: 100px;
     margin-top: 0px;
@@ -274,7 +274,7 @@
  }
 
  .card2{
-    width: 30%;
+    width: 25%;
     height: 500px;
     margin-left: 450px;
     margin-top: 0px;
@@ -296,7 +296,7 @@
  }
 
  .card3{
-    width: 30%;
+    width: 25%;
     height: 500px;
     margin-left: 800px;
     margin-top: -500px;
@@ -317,6 +317,80 @@
  }
 
 .card1.card2.card3.a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.panel1{
+    width: 90%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 60px;
+    border: 1px solid black;
+    border-radius: 1px;
+    position: relative;
+    z-index: 1;
+    background-color: blue;
+    clip-path: polygon(50px 0, 100% 0, 100% 100%, 0 100%, 0 50px);
+}
+
+.panel1 p{ /*We have the dynamcs of the buttons of the description*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none; /* Remove the underline */
+ }
+
+ .panel2{
+    width: 90%;
+    height: auto;
+    margin-left: 0px;
+    margin-top: 60px;
+    padding: 60px;
+    border: 1px solid black;
+    border-radius: 1px;
+    position: relative;
+    z-index: 1;
+    background-color: blue;
+}
+
+.panel2 p{ /*We have the dynamcs of the buttons of the description*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none; /* Remove the underline */
+ }
+
+ .panel3{
+    width: 90%;
+    height: auto;
+    margin-left: 100px;
+    margin-top: 60px;
+    position: relative;
+    padding: 60px;
+    border: 1px solid black;
+    border-radius: 1px;
+    z-index: 2;
+    background-color: blue;
+    clip-path: polygon(50px 0, 100% 0, 100% 100%, 0 100%, 0 50px);
+}
+
+.panel3 p{ /*We have the dynamcs of the buttons of the description*/
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    color: white;
+    margin-top: 0px;
+    text-decoration: none; /* Remove the underline */
+ }
+
+.panel1.panel2.panel3.a:hover{
     text-decoration: underline;
     cursor: pointer;
     font-weight: bold;
