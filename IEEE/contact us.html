@@ -18,7 +18,7 @@
               <a href="https://www.ieee.org/sitemap.html" class="top-divider-space" accesskey="2">More Sites</a> 
               <div class="search"> 
                   <form action="https://www.google.com/search" method="get" target="_blank">
-                    <input class="search-bar" type="text" name="q" placeholder="Type to Search">
+                    <input class="search-bar" type="texts" name="q" placeholder="Type to Search">
                     <button class="btn" type="submit">Search</button> <!--Ensures that the results will appear as it would in a Google search-->
                   </form> 
               </div> 
@@ -81,18 +81,19 @@
             </div>
         </div><br><br>
 
+      <div class="body">
         <section id="Contact us">
             <div class="contact">
                 <h1>Contact Us</h1><br>
                 <p>We would love to hear from you! Please fill in the following form with your inquiry and we will get back to you with a response. Thank you for your interest in IEEE Murang'a University!</p>
             </div><br><br>
-            <form style="margin-left: 50px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
+            <form action="/action_page.php" autocomplete="on" style="margin-left: 50px; font-size: 16px; font-family: Arial, Helvetica, sans-serif; font-weight: bold;">
               <label for="fname">First name:</label><br>
-              <input type="text" style="height: 50px; font-size: 30px;" id="fname" name="fname" size="50" value="John"><br><br>
+              <input type="text" style="height: 50px; font-size: 24px;" id="fname" name="fname" size="50" value=""><br><br>
               <label for="lname">Last name:</label><br>
-              <input type="text" style="height: 50px; font-size: 30px;" id="lname" name="lname" size="50" value="Doe"><br><br>
+              <input type="text" style="height: 50px; font-size: 24px;" id="lname" name="lname" size="50" value=""><br><br>
               <label for="email">Email Address:</label><br>
-              <input type="text" style="height: 50px; font-size: 30px;" id="lname" name="email" size="50" value="example@domain.com"><br><br>
+              <input type="text" style="height: 50px; font-size: 24px;" id="lname" name="email" size="50" value=""><br><br>
 
               <p>Select your Gender:</p><br>
               <input type="radio" id="gender" name="Select your gender" value="Male">
@@ -106,6 +107,7 @@
                   width: 20px; /* Adjust size */
                   height: 20px; /* Adjust size */
                   cursor: pointer;
+                  font-family: Arial, Helvetica, sans-serif;
                 }
                 input[type="text"] {
                   width: 100%;
@@ -114,9 +116,105 @@
                   display: inline-block;
                   border: 1px solid #ccc;
                   box-sizing: border-box;
+                  font-family: Arial, Helvetica, sans-serif;
                 }
               </style>
+              <br><br>
+              <label for="Membership" style="font-size: 24px;">Type of Membership:</label>
+              <select id="Membership" name="Membership" style="height: 50px; font-size: 24px; font-family: Arial, Helvetica, sans-serif;">
+                <option value="Select" selected>Select Membership</option>
+                <option value="Student">Student Membership</option>
+                <option value="Society">Society Membership</option>
+                <option value="Young Professionals">Young Professionals</option>
+                <option value="Full">Full Membership</option>
+              </select>
+
+              <br><br>
+              <p style="font-size: 24px; font-family: Arial, Helvetica, sans-serif;">Are you a member of a society?:</p><br>
+              <input type="radio" id="Society" name="Are you a member of a society?" value="Yes.">
+              <label for="Yes." style="font-size: 24px;">Yes.</label><br><br>
+              <input type="radio" id="Society" name="Are you a member of a society?" value="No.">
+              <label for="No." style="font-size: 24px;">No.</label><br><br>
+              <input type="radio" id="Society" name="Are you a member of a society?" value="Interested in joining.">
+              <label for="Interested in joining." style="font-size: 24px;">Interested in joining.</label>
+              </style>
+              <br><br>   
+              <label for="subject" style="font-size: 24px;">Subject:</label><br>
+              <textarea id="subject" name="subject" style="height: 500px; width: 70%; font-size: 24px;" placeholder="Write your comment or query.."></textarea><br><br>
+              <input type="submit" value="Submit" style="font-size: 24px; font-family: Arial, Helvetica, sans-serif; padding: 5px; background-color: blue; color: white;">
+              <input type="reset" value="Reset" style="font-size: 24px; font-family: Arial, Helvetica, sans-serif; padding: 5px; background-color: blue; color: white; margin-left: 10px;">
+              <br><br><hr class="custom-line">  
+
             </form>
 
-
+            <div class="quick-links">
+              <div class="logo" style="margin-left: 50px;">
+                <a href="IEEE MUT.html" target="_self" style="text-decoration: none;" title="Welcome to IEEE Murang'a University">
+                  <img src="official black.png" alt="logo" style="width: 65%; height: 250px; margin-top: 20px;">
+                  <h2 style="font-size: 35px; margin-top: -40px; color: white; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">IEEE Murang'a University<br> Student Branch.</h2>
+                </a>
+              </div>
+              <div class="links">
+                <h2 style="font-size: 40px; margin-left: -50px;">Quick Links</h2>
+                <ol type="a">
+                  <li><a href="index.html" title="Home page" target="_self">Home</a></li>
+                  <li><a href="index.html" title="About us" target="_self">About Us</a></li>
+                  <li><a href="membership.html" title="Engage with IEEE" target="_self">Membership</a></li>
+                  <li><a href="membership.html" title="Get more resources" target="_self">Resourses</a></li>
+                  <li><a href="contact us.html" title="Got any comment or Question" target="_self">Contact</a></li>
+                </ol>
+                <style>
+                  .links a:link {
+                    color: green;
+                    background-color: transparent;
+                    text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;
+                  }
+                  .links a:visited {
+                    color: white;
+                    background-color: transparent;
+                    text-decoration: none;
+                    font-family: Arial, Helvetica, sans-serif;
+                  }
+                  .links a:hover {
+                    color: red;
+                    background-color: transparent;
+                    text-decoration: underline;
+                    font-family: Arial, Helvetica, sans-serif;
+                  }
+                  .links a:active {
+                    color: yellow;
+                    background-color: transparent;
+                    text-decoration: underline;
+                    font-family: Arial, Helvetica, sans-serif;
+                  }
+                  </style>
+              </div>
+               <div class="button" style="margin-left: 800px;">
+                <h2 style="font-size: 30px; margin-top: -150px;color: white; width: 80%;">Connect with us</h2>
+                   <ul style="margin-top: 20px;">
+                       <li><a href="https://ieee-collabratec.ieee.org/" title="Connect on ieee-collabratec" alt= "IEEE Collabratec" target="_blank"><img src="https://th.bing.com/th?id=ODLS.f2d0aeb9-6092-466a-9227-59e9468e5a91&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"></a></li> <!--The link to the IEEE Collabratec page-->
+                       <li><a href="https://www.facebook.com/IEEEMUTSB/" title="Facebook" alt="Facebook" target="_blank"><img src="https://th.bing.com/th?id=ODLS.ed551f5f-86b4-4f3c-b131-c5f6234517b7&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"></a></li> <!--The link to the IEEE Facebook page-->
+                       <li><a href="https://x.com/IEEEMUTSB" title="Twitter" alt="Twitter" target="_blaCK"><img src="https://th.bing.com/th?id=ODLS.911c4007-1246-440a-8a41-c36100b728f7&w=32&h=32&qlt=95&pcl=fffffa&o=6&pid=1.2"></a></li> <!--The link to the IEEE Twitter page-->
+                       <li><a href="https://www.linkedin.com/company/ieeemutsb/" title="Linkedin" alt="Linkedin" target="_blank"><img src="https://th.bing.com/th?id=ODLS.c1b94e26-52d8-4d85-8faf-a367583929ce&w=32&h=32&qlt=90&pcl=fffffc&o=6&pid=1.2"></a></li> <!--The link to the IEEE Linkedin page-->
+                       <li><a href="https://www.instagram.com/ieee.mut.sb/" title="Instagram" alt="Instagram" target="_blank"><img src="https://th.bing.com/th?id=ODLS.7e9375d5-26a4-4702-bb17-c140827dc762&w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2"></a></li> <!--The link to the IEEE Instagram page-->
+                 </div>
+    </div>
+      <div class="footer">
+          <div class="footer-wedge">
+              <a href="https://www.ieee.org" class="ieee-home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home&nbsp;|&nbsp;</a>
+              <a href="http://www.ieee.org/sitemap.html" class="top-divider-space">Sitemap &nbsp;|&nbsp;</a>
+              <a href="https://www.ieee.org/accessibility-statement.html" class="top-divider-space">Accessibility&nbsp;|&nbsp;</a>
+              <a href="https://www.ieee.org/about/corporate/governance/p9-26.html" class="top-divider-space">Non Discrimination Policy&nbsp;|&nbsp;</a>
+              <a href="http://www.ieee-ethics-reporting.org/" class="top-divider-space" accesskey="2">IEEE Ethics Reporting&nbsp;|&nbsp</a>
+              <a href="http://www.ieee.org/site_terms_conditions.html" class="top-divider-space">Terms and Conditions&nbsp;|&nbsp;</a>
+              <a href="https://www.ieee.org/security_privacy.html" class="top-divider-space">IEEE Privacy Policy&nbsp;|&nbsp;</a>
+              <br><br>
+              <p>@ Copyright 2025 IEEE – All rights reserved. Use of this website signifies your agreement to the IEEE Terms and Conditions. <br>A public charity, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.</p>
+           </div>
+        </div>
         </section>
+      </div>
+    </div>
+  </body>
+</html>
